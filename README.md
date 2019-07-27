@@ -63,6 +63,7 @@ Lenovo
 2. USB-urile funvtionale toate, inclusiv USB-ul de Type-C
 3. TrackPad-ul functional gratie VoodooPS2Controller.kext + derivatele (vezi folderul KEXT)
 4. Slepp/Wake functioneaza asa cum trebuie,timpul de "cadere" in sleep aprox. 5 sec. , wake instantaneu (USB-urile raman            functionale)
+
 5.Monitorul functioneaza iprodului nefunctional (incompatibilitate) in toate rezolutiile, dar la rezolutia maxima (2k) scrisul este prea mic
 6. SSD-ul incompatibil sau o chinazarie ieftina (PM-961) l-am schimbat cu un Samsung 970 Pro
 7. Tastele pentru sunet si brightness functionale (F2-F3, respectiv F11-F12)
