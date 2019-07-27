@@ -14,11 +14,12 @@ I.PROCESOR     1. Intel® i5 8250U Kaby Lake R
                6. Tehnologie procesor	14 nm
                7. GPU	Intel® UHD Graphics 620
 
-II.AFISARE     1. Diagonala display	14 inch
-               2, Format display	WQHD (2k)
-               3. Rezolutie	2560 x 1440
-               4. Tehnologie display	IPS
-               5.Finisaj display	Glare
+II.AFISARE
+1. Diagonala display	14 inch
+2. Format display	WQHD (2k)
+3. Rezolutie	2560 x 1440
+4. Tehnologie display	IPS
+5.Finisaj display	Glare
 
 III.MEMORIE    1. 8 GB	DDR4 2400 MHz
 
