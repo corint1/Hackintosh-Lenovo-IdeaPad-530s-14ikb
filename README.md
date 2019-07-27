@@ -6,13 +6,14 @@ Mai sunt mici corectii de facut si putin cosmetizat dar de principiu functioeaza
 Descriere produs:
 
 Specificatii
-I.PROCESOR     1. Intel® i5 8250U Kaby Lake R
-               2. Numar nuclee	4
-               3. Frecventa nominala	1.6 GHz
-               4. Frecventa Turbo Boost	3.4 GHz
-               5. Cache	6144 KB
-               6. Tehnologie procesor	14 nm
-               7. GPU	Intel® UHD Graphics 620
+I.PROCESOR
+1. Intel® i5 8250U Kaby Lake R
+2. Numar nuclee	4
+3. Frecventa nominala	1.6 GHz
+4. Frecventa Turbo Boost	3.4 GHz
+5. Cache	6144 KB
+6. Tehnologie procesor	14 nm
+7. GPU	Intel® UHD Graphics 620
 
 II.AFISARE
 1. Diagonala display	14 inch
@@ -21,24 +22,26 @@ II.AFISARE
 4. Tehnologie display	IPS
 5.Finisaj display	Glare
 
-III.MEMORIE    1. 8 GB	DDR4 2400 MHz
+III.MEMORIE     8 GB	DDR4 2400 MHz
 
-IV.HARD DISK   1.	SSD 512 GB Nvme - Samsung PM-961 OEM
+IV.HARD DISK   	SSD 512 GB Nvme - Samsung PM-961 OEM
 
-V.Placa video  1. Intel® UHD Graphics 620
+V.Placa video   Intel® UHD Graphics 620
 
-VI.MULTIMEDIA  1. Camera WEB HD
-               2. Audio	Difuzoare stereo
-               3. Microfoane duale
-               4. Dolby Audio
+VI.MULTIMEDIA  
+1. Camera WEB HD
+2. Audio	Difuzoare stereo
+3. Microfoane duale
+4. Dolby Audio
 
-VII.CONECTIVITATE  - 2 x USB 3.0
-                 1 x Jack 3.5 mm
-                 1 x HDMI
-                 1 x USB 3.1 type C
-                 Cititor de carduri	SD, SDHC, SDXC, MMC
-                 Wireless	802.11 ac (Realtek 8822B)
-                 Bluetooth	4.1
+VII.CONECTIVITATE
+- 2 x USB 3.0
+1 x Jack 3.5 mm
+1 x HDMI
+1 x USB 3.1 type C
+Cititor de carduri	SD, SDHC, SDXC, MMC
+Wireless	802.11 ac (Realtek 8822B)
+Bluetooth	4.1
 
 VIII.CARACTERISTICI - IdeaPad 530S Series
                  W x H x D	323.4 x 16.4 x 226 mm
