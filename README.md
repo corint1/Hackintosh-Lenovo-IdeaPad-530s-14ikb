@@ -67,7 +67,7 @@ Lenovo
 7. Tastele pentru sunet si brightness functionale (F2-F3, respectiv F11-F12)
 8. NVRAM nativ
 
-Cred ca nu am omis nimic... Si cum se spune in asrfel de situatii : "Working in progress"
+Cred ca nu am omis nimic... Si cum se spune in astfel de situatii : "Working in progress"
 Sunt deschis la orice sugestie sau complectare, actualizare etc etc 
 
 Pe scurt este un laptop de exceptie care pt. hackintosh este perfect.
