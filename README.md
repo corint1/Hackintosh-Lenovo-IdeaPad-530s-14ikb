@@ -20,7 +20,7 @@ Culoare Copper (auriu)
 4. Slepp/Wake functioneaza asa cum trebuie,timpul de "cadere" in sleep aprox. 5s , wake instantaneu (USB-urile raman            functionale)
 5.Monitorul functioneaza iprodului nefunctional (incompatibilitate) in toate rezolutiile, dar la rezolutia maxima (2k) scrisul este prea mic
 6. SSD-ul incompatibil sau o chinazarie ieftina (PM-961) l-am schimbat cu un Samsung 970 Pro
-7. Tastele pentru sunet si brighrness functionale (F2-F3, respectiv F11-F12)
+7. Tastele pentru sunet si brightness functionale (F2-F3, respectiv F11-F12)
 8. NVRAM nativ
 
 Cred ca nu am omis nimic... Si cum se spune in asrfel de situatii : "Working in progress"
