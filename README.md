@@ -43,17 +43,19 @@ Cititor de carduri	SD, SDHC, SDXC, MMC
 Wireless	802.11 ac (Realtek 8822B)
 Bluetooth	4.1
 
-VIII.CARACTERISTICI - IdeaPad 530S Series
-                 W x H x D	323.4 x 16.4 x 226 mm
-                 Greutate	1.49 Kg
-                 Securitate	Cititor de amprenta
-                 Tastatura internationala
-                 Material	Aluminiu
-                 Autonomie baterie	8 h
-                 Culoare	Auriu
-                 Tastatura iluminata
+VIII.CARACTERISTICI
+IdeaPad 530S Series
+W x H x D	323.4 x 16.4 x 226 mm
+Greutate	1.49 Kg
+Securitate	Cititor de amprenta
+Tastatura internationala
+Material	Aluminiu
+Autonomie baterie	8 h
+Culoare	Auriu
+Tastatura iluminata
 
-IX.Brand         - Lenovo
+IX.Brand
+Lenovo
 
 
 
