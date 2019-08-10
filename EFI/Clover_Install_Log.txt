@@ -1,6 +1,6 @@
 
-Clover EFI installer log - Mon Jul 29 17:54:49 EEST 2019
-Installer version: v2.5k r5033 EFI bootloader
+Clover EFI installer log - Tue Aug  6 06:30:59 EEST 2019
+Installer version: v2.5k r5035 EFI bootloader
 ======================================================
 Changes:
 Mount ESP Beta (r5030): use of a new command line called espfinder to find the ESP that belong with the target volume
@@ -41,7 +41,7 @@ A backup is always made to the root of the target volume.
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      APFS Container Scheme -                      +239.9 GB   disk1
                                  Physical Store disk0s2
-   1:                APFS Volume Mojave-14.5             54.2 GB    disk1s1
+   1:                APFS Volume Mojave-14.5             56.1 GB    disk1s1
    2:                APFS Volume Preboot                 44.8 MB    disk1s2
    3:                APFS Volume Recovery                510.3 MB   disk1s3
    4:                APFS Volume VM                      20.5 KB    disk1s4
@@ -50,19 +50,13 @@ A backup is always made to the root of the target volume.
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      GUID_partition_scheme                        *15.5 GB    disk2
    1:                        EFI EFI                     209.7 MB   disk2s1
-   2:                  Apple_HFS Install macOS Mojave    15.2 GB    disk2s2
-
-/dev/disk3 (external, physical):
-   #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      GUID_partition_scheme                        *15.5 GB    disk3
-   1:                        EFI EFI                     209.7 MB   disk3s1
-   2:                  Apple_HFS Install macOS Catali... 15.2 GB    disk3s2
+   2:                  Apple_HFS Install macOS Catali... 15.2 GB    disk2s2
 
 ======================================================
 Backing up EFI files
 
-Backing up stage2 file /Volumes/Mojave-14.5/EFIROOTDIR/boot  to /Volumes/Mojave-14.5/EFI-Backups/r5024/2019-07-29-17h54/boot
-Backing up /Volumes/Mojave-14.5/EFIROOTDIR/EFI folder to /Volumes/Mojave-14.5/EFI-Backups/r5024/2019-07-29-17h54/EFI
+Backing up stage2 file /Volumes/Mojave-14.5/EFIROOTDIR/boot  to /Volumes/Mojave-14.5/EFI-Backups/r5033/2019-08-06-06h30/boot
+Backing up /Volumes/Mojave-14.5/EFIROOTDIR/EFI folder to /Volumes/Mojave-14.5/EFI-Backups/r5033/2019-08-06-06h30/EFI
 ======================================================
 Installing BootSectors/BootLoader
 
@@ -71,7 +65,6 @@ Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
 Stage 2 - Written boot6 (x64) to //boot
 Removing UEFI/HFSPlus.efi because VBoxHfs.efi is installed!
 Removing UEFI/AptioMemoryFix.efi because OsxAptioFix3Drv.efi is installed
-Removing UEFI/OsxAptioFixDrv.efi because OsxAptioFix3Drv.efi is installed
 
 ======================================================
 =========== Clover EFI Installation Finish ===========
