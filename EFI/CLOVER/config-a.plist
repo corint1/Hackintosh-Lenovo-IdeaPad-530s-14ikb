@@ -47,6 +47,34 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
+					<string>LPC to LPCB</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					TFBDXw==
+					</data>
+					<key>Replace</key>
+					<data>
+					TFBDQg==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>EC to EC0</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					RUNfXw==
+					</data>
+					<key>Replace</key>
+					<data>
+					RUMwXw==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
 					<string>_Q11 to XQ11(lenAir/IKB/IKBR/IWL-down)</string>
 					<key>Disabled</key>
 					<false/>
@@ -71,6 +99,34 @@
 					<key>Replace</key>
 					<data>
 					WFExMg==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Rename LID to LID0</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					TElEXw==
+					</data>
+					<key>Replace</key>
+					<data>
+					TElEMA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>_LID to XLID</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X0xJRAA=
+					</data>
+					<key>Replace</key>
+					<data>
+					WExJRAA=
 					</data>
 				</dict>
 				<dict>
@@ -103,79 +159,9 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>LPC to LPCB</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>
-					TFBDXw==
-					</data>
-					<key>Replace</key>
-					<data>
-					TFBDQg==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>H_EC to EC</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>
-					SF9FQw==
-					</data>
-					<key>Replace</key>
-					<data>
-					RUMwXw==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>EC to EC0</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>
-					RUNfXw==
-					</data>
-					<key>Replace</key>
-					<data>
-					RUMwXw==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>_LID to XLID</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>
-					X0xJRAA=
-					</data>
-					<key>Replace</key>
-					<data>
-					WExJRAA=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Rename LID to LID0</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>
-					TElEXw==
-					</data>
-					<key>Replace</key>
-					<data>
-					TElEMA==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>EPC:_STA to XSTA</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					X1NUQQ==
@@ -193,7 +179,7 @@
 					<key>Comment</key>
 					<string>_PTS to ZPTS(1,N)</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					X1BUUwE=
@@ -207,7 +193,7 @@
 					<key>Comment</key>
 					<string>_WAK to ZWAK(1,S)</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					X1dBSwk=
@@ -259,22 +245,20 @@
 		<false/>
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
-		<key>HibernationFixup</key>
-		<false/>
 		<key>Legacy</key>
 		<string>PBR</string>
+		<key>NeverDoRecovery</key>
+		<false/>
 		<key>NeverHibernate</key>
 		<true/>
 		<key>NoEarlyProgress</key>
 		<false/>
 		<key>Secure</key>
 		<false/>
-		<key>SignatureFixup</key>
-		<true/>
 		<key>Timeout</key>
 		<integer>3</integer>
 		<key>XMPDetection</key>
-		<false/>
+		<string>Yes</string>
 	</dict>
 	<key>CPU</key>
 	<dict>
@@ -294,33 +278,6 @@
 		</dict>
 		<key>Properties</key>
 		<dict>
-			<key>PciRoot(0x0)/Pci(0x15,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>PCI-Express</string>
-				<key>device_type</key>
-				<string>Signal processing controller</string>
-				<key>model</key>
-				<string>Sunrise Point-LP Serial IO I2C Controller</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1c,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>PCI-Express</string>
-				<key>device_type</key>
-				<string>PCI bridge</string>
-				<key>model</key>
-				<string>Sunrise Point-LP PCI Express Root Port</string>
-			</dict>
-			<key>PciRoot(0x0)/Pci(0x1f,0x0)</key>
-			<dict>
-				<key>AAPL,slot-name</key>
-				<string>PCI-Express</string>
-				<key>device_type</key>
-				<string>ISA bridge</string>
-				<key>model</key>
-				<string>CMxxxChipset LPC/eSPI Controller</string>
-			</dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
@@ -392,6 +349,8 @@
 				<data>
 				AAAAgA==
 				</data>
+				<key>model</key>
+				<string>HD Graphics 620</string>
 			</dict>
 		</dict>
 		<key>USB</key>
@@ -451,8 +410,6 @@
 	<dict>
 		<key>AppleIntelCPUPM</key>
 		<true/>
-		<key>AppleRTC</key>
-		<true/>
 		<key>Debug</key>
 		<false/>
 		<key>KernelCpu</key>
@@ -486,7 +443,7 @@
 				<key>Comment</key>
 				<string>Enable TRIM for SSD</string>
 				<key>Disabled</key>
-				<true/>
+				<false/>
 				<key>Find</key>
 				<data>
 				AEFQUExFIFNTRAA=
