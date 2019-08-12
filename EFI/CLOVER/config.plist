@@ -75,20 +75,6 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>OSID to XSID</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					T1NJRA==
-					</data>
-					<key>Replace</key>
-					<data>
-					WFNJRA==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>_OSI to XOSI</string>
 					<key>Disabled</key>
 					<false/>
@@ -103,118 +89,16 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>LPC to LPCB</string>
+					<string>_PRW to XPRW</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
-					TFBDXw==
+					X1BSVw==
 					</data>
 					<key>Replace</key>
 					<data>
-					TFBDQg==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>H_EC to EC</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>
-					SF9FQw==
-					</data>
-					<key>Replace</key>
-					<data>
-					RUMwXw==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>EC to EC0</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>
-					RUNfXw==
-					</data>
-					<key>Replace</key>
-					<data>
-					RUMwXw==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>_LID to XLID</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>
-					X0xJRAA=
-					</data>
-					<key>Replace</key>
-					<data>
-					WExJRAA=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Rename LID to LID0</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>
-					TElEXw==
-					</data>
-					<key>Replace</key>
-					<data>
-					TElEMA==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>EPC:_STA to XSTA</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>
-					X1NUQQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WFNUQQ==
-					</data>
-					<key>TgtBridge</key>
-					<data>
-					RVBDXw==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>_PTS to ZPTS(1,N)</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>
-					X1BUUwE=
-					</data>
-					<key>Replace</key>
-					<data>
-					WlBUUwE=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>_WAK to ZWAK(1,S)</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>
-					X1dBSwk=
-					</data>
-					<key>Replace</key>
-					<data>
-					WldBSwk=
+					WFBSVw==
 					</data>
 				</dict>
 			</array>
@@ -270,7 +154,7 @@
 		<key>Secure</key>
 		<false/>
 		<key>SignatureFixup</key>
-		<true/>
+		<false/>
 		<key>Timeout</key>
 		<integer>3</integer>
 		<key>XMPDetection</key>
@@ -294,6 +178,26 @@
 		</dict>
 		<key>Properties</key>
 		<dict>
+			<key>PciRoot(0x0)/Pci(0x14,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>PCI-Express</string>
+				<key>device_type</key>
+				<string>USB Controller</string>
+				<key>model</key>
+				<string>Intel USB xHCI Host Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x14,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>PCI-Express</string>
+				<key>compatible</key>
+				<string>pci8086,a2a1</string>
+				<key>device_type</key>
+				<string>Thermal Controller</string>
+				<key>model</key>
+				<string>Sunrise Point-LP Thermal subsystem</string>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x15,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
@@ -303,14 +207,32 @@
 				<key>model</key>
 				<string>Sunrise Point-LP Serial IO I2C Controller</string>
 			</dict>
+			<key>PciRoot(0x0)/Pci(0x16,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>PCI-Express</string>
+				<key>device_type</key>
+				<string>IMEI Controller</string>
+				<key>model</key>
+				<string>Intel IMEI Controller</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x17,0x0)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>PCI-Express</string>
+				<key>device_type</key>
+				<string>SATA Controller</string>
+				<key>model</key>
+				<string>Intel AHCI SATA Controller</string>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x1c,0x0)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>PCI-Express</string>
 				<key>device_type</key>
-				<string>PCI bridge</string>
+				<string>Wireless controller</string>
 				<key>model</key>
-				<string>Sunrise Point-LP PCI Express Root Port</string>
+				<string>Broadcom BCM4352 802.11ac Wireless Network Adapter</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x0)</key>
 			<dict>
@@ -321,10 +243,19 @@
 				<key>model</key>
 				<string>CMxxxChipset LPC/eSPI Controller</string>
 			</dict>
+			<key>PciRoot(0x0)/Pci(0x1f,0x2)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>PCI-Express</string>
+				<key>device_type</key>
+				<string>Power Manage controler</string>
+				<key>model</key>
+				<string>Intel PMC controler</string>
+			</dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
 				<key>AAPL,slot-name</key>
-				<string>Internal</string>
+				<string>PCI-Express</string>
 				<key>device_type</key>
 				<string>Audio device</string>
 				<key>layout-id</key>
@@ -333,6 +264,15 @@
 				</data>
 				<key>model</key>
 				<string>Sunrise Point-LP HD Audio</string>
+			</dict>
+			<key>PciRoot(0x0)/Pci(0x1f,0x4)</key>
+			<dict>
+				<key>AAPL,slot-name</key>
+				<string>PCI-Express</string>
+				<key>device_type</key>
+				<string>SBUS controller</string>
+				<key>model</key>
+				<string>Intel SBUS controller</string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
