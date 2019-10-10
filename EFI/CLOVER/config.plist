@@ -33,7 +33,7 @@
 			<array>
 				<dict>
 					<key>Comment</key>
-					<string>_DSM to XDSM</string>
+					<string>SSDT:  _DSM to XDSM</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -47,35 +47,7 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>_Q11 to XQ11(lenAir/IKB/IKBR/IWL-down)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X1ExMQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WFExMQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>_Q12 to XQ12(lenAir/IKB/IKBR/IWL-up)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X1ExMg==
-					</data>
-					<key>Replace</key>
-					<data>
-					WFExMg==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>_OSI to XOSI</string>
+					<string>SSDT:  _OSI to XOSI</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -89,7 +61,35 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>_PRW to XPRW</string>
+					<string>FnKey:  _Q11 to XQ11(lenAir/IKB/IKBR/IWL-down)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1ExMQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFExMQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>FnKey:  _Q12 to XQ12(lenAir/IKB/IKBR/IWL-up)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1ExMg==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFExMg==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Instant Wake: _PRW to XPRW</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
@@ -99,6 +99,42 @@
 					<key>Replace</key>
 					<data>
 					WFBSVw==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>I2C: change _STA to XSTA in Device GPI0</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1NUQQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFNUQQ==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					R1BJMA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>I2C: change _CRS to XCRS in Device TPD1</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X0NSUw==
+					</data>
+					<key>Replace</key>
+					<data>
+					WENSUw==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					VFBEMQ==
 					</data>
 				</dict>
 				<dict>
@@ -127,42 +163,6 @@
 					<key>Replace</key>
 					<data>
 					WENSUw==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change _STA to XSTA in Device GPI0</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X1NUQQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WFNUQQ==
-					</data>
-					<key>TgtBridge</key>
-					<data>
-					R1BJMA==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change _CRS to XCRS in Device TPD1</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X0NSUw==
-					</data>
-					<key>Replace</key>
-					<data>
-					WENSUw==
-					</data>
-					<key>TgtBridge</key>
-					<data>
-					VFBEMQ==
 					</data>
 				</dict>
 			</array>
@@ -255,8 +255,6 @@
 			<dict>
 				<key>AAPL,slot-name</key>
 				<string>PCI-Express</string>
-				<key>compatible</key>
-				<string>pci8086,a2a1</string>
 				<key>device_type</key>
 				<string>Thermal Controller</string>
 				<key>model</key>

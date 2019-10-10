@@ -1,6 +1,6 @@
 
-Clover EFI installer log - Thu Oct 10 11:53:22 EEST 2019
-Installer version: v2.5k r5093 EFI bootloader
+Clover EFI installer log - Thu Oct 10 21:28:29 EEST 2019
+Installer version: v2.5k r5095 EFI bootloader
 ======================================================
 /dev/disk0 (internal):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
@@ -28,30 +28,22 @@ Installer version: v2.5k r5093 EFI bootloader
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      APFS Container Scheme -                      +239.9 GB   disk3
                                  Physical Store disk1s2
-   1:                APFS Volume Mojave-14.5             79.5 GB    disk3s1
+   1:                APFS Volume Mojave-14.5             71.3 GB    disk3s1
    2:                APFS Volume Preboot                 44.8 MB    disk3s2
    3:                APFS Volume Recovery                510.4 MB   disk3s3
    4:                APFS Volume VM                      20.5 KB    disk3s4
 
-/dev/disk4 (external, physical):
-   #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      GUID_partition_scheme                        *15.5 GB    disk4
-   1:                        EFI EFI                     209.7 MB   disk4s1
-   2:                  Apple_HFS Install macOS Catalina  15.2 GB    disk4s2
-
 ======================================================
 Backing up EFI files
 
-Backing up stage2 file /Volumes/Mojave-14.5/EFIROOTDIR/boot  to /Volumes/Mojave-14.5/EFI-Backups/r5093/2019-10-10-11h53/boot
-Backing up /Volumes/Mojave-14.5/EFIROOTDIR/EFI folder to /Volumes/Mojave-14.5/EFI-Backups/r5093/2019-10-10-11h53/EFI
+Backing up stage2 file /Volumes/Mojave-14.5/EFIROOTDIR/boot  to /Volumes/Mojave-14.5/EFI-Backups/r5093/2019-10-10-21h28/boot
+Backing up /Volumes/Mojave-14.5/EFIROOTDIR/EFI folder to /Volumes/Mojave-14.5/EFI-Backups/r5093/2019-10-10-21h28/EFI
 ======================================================
 Installing BootSectors/BootLoader
 
 Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
 Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
 Stage 2 - Written boot6 (x64) to //boot
-Removing UEFI/HFSPlus.efi because VBoxHfs.efi is installed!
-Removing UEFI/OsxAptioFixDrv.efi because OsxAptioFix3Drv.efi is installed
 
 ======================================================
 =========== Clover EFI Installation Finish ===========
