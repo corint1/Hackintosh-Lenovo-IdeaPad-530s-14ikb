@@ -1,0 +1,80 @@
+30:318  2:564  Found UEFI Acpi 2.0 RSDP at 7FFFD014
+30:318  0:000  Saving ACPI tables from RSDP 7FFFD014 to EFI\CLOVER\ACPI\origin ...
+30:318  0:000   7FFFD014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+30:318  0:000    (Xsdt: 7FFC1188, Rsdt: 7FFC10C4)
+30:318  0:000    7FFC1188: 'XSDT', 'CB-01', Rev: 1, Len: 268
+30:318  0:000    7FFC10C4: 'RSDT', 'CB-01', Rev: 1, Len: 152
+30:318  0:000    Tables in Xsdt: 29
+30:318  0:000    0. 7FFEA000: 'FACP', 'CB-01', Rev: 5, Len: 268
+30:318  0:000        (Dsdt: 7FFC6000, Facs: 7FF57000, XDsdt: 7FFC6000, XFacs: 0)
+30:318  0:000        7FFC6000: 'DSDT', 'CB-01', Rev: 2, Len: 132628
+30:322  0:003        7FF57000: 'FACS', Ver: 2, Len: 64
+30:322  0:000    1. 7FFFC000: 'UEFI', 'CB-01', Rev: 1, Len: 566
+30:322  0:000    2. 7FFFB000: 'UEFI', 'CB-01', Rev: 1, Len: 66
+30:322  0:000    3. 7FFFA000: 'MSDM', 'CB-01', Rev: 3, Len: 85
+30:322  0:000    4. 7FFF9000: 'SSDT', 'CB-01', Rev: 2, Len: 1219
+30:322  0:000    5. 7FFF8000: 'SSDT', 'CB-01', Rev: 2, Len: 70
+30:322  0:000    6. 7FFF7000: 'TPM2', 'CB-01', Rev: 3, Len: 52
+30:322  0:000    7. 7FFF3000: 'SSDT', 'CB-01', Rev: 2, Len: 12560
+30:322  0:000    8. 7FFEF000: 'SSDT', 'CB-01', Rev: 2, Len: 14470
+30:322  0:000    9. 7FFEE000: 'ASF!', 'CB-01', Rev: 32, Len: 165
+30:322  0:000    10. 7FFED000: 'ASPT', 'CB-01', Rev: 7, Len: 52
+30:322  0:000    11. 7FFEC000: 'BOOT', 'CB-01', Rev: 1, Len: 40
+30:322  0:000    12. 7FFEB000: 'DBGP', 'CB-01', Rev: 1, Len: 52
+30:322  0:000    13. 7FFE9000: 'HPET', 'CB-01', Rev: 1, Len: 56
+30:322  0:000    14. 7FFE8000: 'APIC', 'CB-01', Rev: 3, Len: 300
+30:322  0:000    15. 7FFE7000: 'MCFG', 'CB-01', Rev: 1, Len: 60
+30:322  0:000    16. 7FFC5000: 'LPIT', 'CB-01', Rev: 1, Len: 148
+30:322  0:000    17. 7FFC4000: 'WSMT', 'CB-01', Rev: 1, Len: 40
+30:322  0:000    18. 7FFC3000: 'SSDT', 'CB-01', Rev: 2, Len: 671
+30:322  0:000    19. 7FFC2000: 'SSDT', 'CB-01', Rev: 1, Len: 838
+30:322  0:000    20. 7FFBD000: 'SSDT', 'CB-01', Rev: 2, Len: 12290
+30:322  0:000    21. 7FFBC000: 'SSDT', 'CB-01', Rev: 2, Len: 1310
+30:322  0:000    22. 7FFBB000: 'DBGP', 'CB-01', Rev: 1, Len: 52 -> DBGP.aml
+30:333  0:011    23. 7FFBA000: 'DBG2', 'CB-01', Rev: 0, Len: 84 -> DBG2.aml
+30:336  0:002    24. 7FFB8000: 'SSDT', 'CB-01', Rev: 2, Len: 4838 -> SSDT-0-CB-01.aml
+30:344  0:008    25. 7FFB6000: 'SSDT', 'CB-01', Rev: 2, Len: 6062 -> SSDT-1-CB-01.aml (Found hidden SSDT 7 pcs)
+30:348  0:003        * 7F75A018: 'SSDT', 'Cpu0Ist', Rev: 2, Len: 1419  53 53 44 54 8B 05 00 00 02 63 50 6D 52 65 66 00 
+30:348  0:000        * 7F758018: 'SSDT', 'ApIst', Rev: 2, Len: 3348  53 53 44 54 14 0D 00 00 02 2A 50 6D 52 65 66 00 
+30:348  0:000        * 7F759898: 'SSDT', 'Cpu0Cst', Rev: 2, Len: 1023  53 53 44 54 FF 03 00 00 02 11 50 6D 52 65 66 00 
+30:348  0:000        * 7F88D658: 'SSDT', 'ApCst', Rev: 2, Len: 778  53 53 44 54 0A 03 00 00 02 93 50 6D 52 65 66 00 
+30:348  0:000        * 7F75ADD8: 'SSDT', 'Cpu0Hwp', Rev: 2, Len: 186  53 53 44 54 BA 00 00 00 02 7D 50 6D 52 65 66 00 
+30:348  0:000        * 7F75A898: 'SSDT', 'ApHwp', Rev: 2, Len: 791  53 53 44 54 17 03 00 00 02 80 50 6D 52 65 66 00 
+30:348  0:000        * 7F759018: 'SSDT', 'HwpLvt', Rev: 2, Len: 1576  53 53 44 54 28 06 00 00 02 85 50 6D 52 65 66 00 Internal length = 1576 -> SSDT-x1_0-HwpLvt.aml
+30:350  0:002  
+30:350  0:000    26. 7FFB5000: 'DMAR', 'CB-01', Rev: 1, Len: 204
+30:350  0:000    27. 7FFB4000: 'FPDT', 'CB-01', Rev: 1, Len: 68
+30:350  0:000    28. 7FFB3000: 'BGRT', 'CB-01', Rev: 1, Len: 56
+30:350  0:000    Tables in Rsdt: 29
+30:350  0:000    0. 7FFEA000: 'FACP', 'CB-01', Rev: 5, Len: 268
+30:350  0:000        (Dsdt: 7FFC6000, Facs: 7FF57000, XDsdt: 7FFC6000, XFacs: 0)
+30:350  0:000        7FFC6000: 'DSDT', 'CB-01', Rev: 2, Len: 132628
+30:354  0:004        7FF57000: 'FACS', Ver: 2, Len: 64
+30:354  0:000    1. 7FFFC000: 'UEFI', 'CB-01', Rev: 1, Len: 566
+30:354  0:000    2. 7FFFB000: 'UEFI', 'CB-01', Rev: 1, Len: 66
+30:354  0:000    3. 7FFFA000: 'MSDM', 'CB-01', Rev: 3, Len: 85
+30:354  0:000    4. 7FFF9000: 'SSDT', 'CB-01', Rev: 2, Len: 1219
+30:354  0:000    5. 7FFF8000: 'SSDT', 'CB-01', Rev: 2, Len: 70
+30:354  0:000    6. 7FFF7000: 'TPM2', 'CB-01', Rev: 3, Len: 52
+30:354  0:000    7. 7FFF3000: 'SSDT', 'CB-01', Rev: 2, Len: 12560
+30:354  0:000    8. 7FFEF000: 'SSDT', 'CB-01', Rev: 2, Len: 14470
+30:354  0:000    9. 7FFEE000: 'ASF!', 'CB-01', Rev: 32, Len: 165
+30:354  0:000    10. 7FFED000: 'ASPT', 'CB-01', Rev: 7, Len: 52
+30:354  0:000    11. 7FFEC000: 'BOOT', 'CB-01', Rev: 1, Len: 40
+30:354  0:000    12. 7FFEB000: 'DBGP', 'CB-01', Rev: 1, Len: 52
+30:354  0:000    13. 7FFE9000: 'HPET', 'CB-01', Rev: 1, Len: 56
+30:354  0:000    14. 7FFE8000: 'APIC', 'CB-01', Rev: 3, Len: 300
+30:354  0:000    15. 7FFE7000: 'MCFG', 'CB-01', Rev: 1, Len: 60
+30:354  0:000    16. 7FFC5000: 'LPIT', 'CB-01', Rev: 1, Len: 148
+30:354  0:000    17. 7FFC4000: 'WSMT', 'CB-01', Rev: 1, Len: 40
+30:354  0:000    18. 7FFC3000: 'SSDT', 'CB-01', Rev: 2, Len: 671
+30:354  0:000    19. 7FFC2000: 'SSDT', 'CB-01', Rev: 1, Len: 838
+30:354  0:000    20. 7FFBD000: 'SSDT', 'CB-01', Rev: 2, Len: 12290
+30:354  0:000    21. 7FFBC000: 'SSDT', 'CB-01', Rev: 2, Len: 1310
+30:354  0:000    22. 7FFBB000: 'DBGP', 'CB-01', Rev: 1, Len: 52
+30:354  0:000    23. 7FFBA000: 'DBG2', 'CB-01', Rev: 0, Len: 84
+30:354  0:000    24. 7FFB8000: 'SSDT', 'CB-01', Rev: 2, Len: 4838
+30:354  0:000    25. 7FFB6000: 'SSDT', 'CB-01', Rev: 2, Len: 6062
+30:354  0:000    26. 7FFB5000: 'DMAR', 'CB-01', Rev: 1, Len: 204
+30:354  0:000    27. 7FFB4000: 'FPDT', 'CB-01', Rev: 1, Len: 68
+30:354  0:000    28. 7FFB3000: 'BGRT', 'CB-01', Rev: 1, Len: 56
