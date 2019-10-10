@@ -1,3 +1,8 @@
+!!!!!!!!!!!!
+NEED TO REGENERATE NEW SERIAL ON config.plist
+IF ONE EXIST IS INVALID
+!!!!!!!!!!!!
+
 # IdeeaPad-530s-14ikb-mac-osx
 
 Folderul EFI pentru mac os-x Mojave 10.14.6, dar functioneaza si in Catalina beta 4.
