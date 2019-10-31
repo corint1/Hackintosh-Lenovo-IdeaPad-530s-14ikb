@@ -13,9 +13,9 @@
 			<key>Fixes</key>
 			<dict>
 				<key>AddDTGP</key>
-				<true/>
+				<false/>
 				<key>AddPNLF</key>
-				<true/>
+				<false/>
 				<key>FixAirport</key>
 				<false/>
 				<key>FixDisplay</key>
@@ -25,7 +25,7 @@
 				<key>FixIPIC</key>
 				<false/>
 				<key>FixRTC</key>
-				<false/>
+				<true/>
 				<key>FixTMR</key>
 				<false/>
 			</dict>
@@ -35,7 +35,7 @@
 					<key>Comment</key>
 					<string>SSDT:  _DSM to XDSM</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					X0RTTQ==
@@ -91,7 +91,7 @@
 					<key>Comment</key>
 					<string>Instant Wake: _PRW to XPRW</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					X1BSVw==
@@ -163,6 +163,20 @@
 					<key>Replace</key>
 					<data>
 					WENSUw==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change GFX0 to IGPU</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					R0ZYMA==
+					</data>
+					<key>Replace</key>
+					<data>
+					SUdQVQ==
 					</data>
 				</dict>
 			</array>
