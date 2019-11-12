@@ -33,20 +33,6 @@
 			<array>
 				<dict>
 					<key>Comment</key>
-					<string>SSDT:  _DSM to XDSM</string>
-					<key>Disabled</key>
-					<true/>
-					<key>Find</key>
-					<data>
-					X0RTTQ==
-					</data>
-					<key>Replace</key>
-					<data>
-					WERTTQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>SSDT:  _OSI to XOSI</string>
 					<key>Disabled</key>
 					<false/>
@@ -89,6 +75,20 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
+					<string>SSDT:  _DSM to XDSM</string>
+					<key>Disabled</key>
+					<true/>
+					<key>Find</key>
+					<data>
+					X0RTTQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WERTTQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
 					<string>Instant Wake: _PRW to XPRW</string>
 					<key>Disabled</key>
 					<true/>
@@ -105,7 +105,7 @@
 					<key>Comment</key>
 					<string>I2C: change _STA to XSTA in Device GPI0</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					X1NUQQ==
@@ -123,7 +123,7 @@
 					<key>Comment</key>
 					<string>I2C: change _CRS to XCRS in Device TPD1</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					X0NSUw==
@@ -179,6 +179,20 @@
 					SUdQVQ==
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change Method(GPRW,2,N) to XPRW, pair with SSDT-GPRW.aml   </string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					R1BSVwI=
+					</data>
+					<key>Replace</key>
+					<data>
+					WFBSVwI=
+					</data>
+				</dict>
 			</array>
 			<key>ReuseFFFF</key>
 			<false/>
@@ -222,17 +236,21 @@
 		<key>DefaultVolume</key>
 		<string>LastBootedVolume</string>
 		<key>HibernationFixup</key>
-		<false/>
+		<true/>
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>NeverHibernate</key>
-		<true/>
+		<false/>
 		<key>NoEarlyProgress</key>
+		<false/>
+		<key>RtcHibernateAware</key>
 		<false/>
 		<key>Secure</key>
 		<false/>
 		<key>SignatureFixup</key>
 		<false/>
+		<key>StrictHibernate</key>
+		<true/>
 		<key>Timeout</key>
 		<integer>3</integer>
 		<key>XMPDetection</key>
@@ -607,7 +625,7 @@
 	<key>SystemParameters</key>
 	<dict>
 		<key>InjectKexts</key>
-		<string>Yes</string>
+		<string>Detect</string>
 		<key>InjectSystemID</key>
 		<true/>
 	</dict>
