@@ -5,7 +5,7 @@ IF ONE EXIST IS INVALID
 
 # IdeeaPad-530s-14ikb-mac-osx
 
-Folderul EFI pentru mac os-x Mojave 10.14.6, dar functioneaza si in Catalina 15.2 (11 dec 2019) .
+Folderul EFI pentru mac os-x Mojave 10.14.6, dar functioneaza si in Catalina 15.2 (11 dec 2019) , 15.4 ( 28 martie 2020 ).
 Mai sunt mici corectii de facut si putin cosmetizat dar de principiu functioeaza tot.
 
 Descriere produs:
