@@ -1,10 +1,10 @@
 
-Clover EFI installer log - Thu Oct 10 21:28:29 EEST 2019
-Installer version: v2.5k r5095 EFI bootloader
+Clover EFI installer log - Fri Mar 27 19:09:09 EET 2020
+Installer version: r5107 EFI bootloader
 ======================================================
-/dev/disk0 (internal):
+/dev/disk0 (internal, physical):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
-   0:      GUID_partition_scheme                         240.1 GB   disk0
+   0:      GUID_partition_scheme                        *240.1 GB   disk0
    1:                        EFI EFI                     209.7 MB   disk0s1
    2:                 Apple_APFS Container disk2         239.7 GB   disk0s2
 
@@ -18,32 +18,39 @@ Installer version: v2.5k r5095 EFI bootloader
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      APFS Container Scheme -                      +239.7 GB   disk2
                                  Physical Store disk0s2
-   1:                APFS Volume Toshiba - Data          19.0 GB    disk2s1
+   1:                APFS Volume Toshiba - Data          30.0 GB    disk2s1
    2:                APFS Volume Preboot                 82.3 MB    disk2s2
    3:                APFS Volume Recovery                528.9 MB   disk2s3
    4:                APFS Volume VM                      1.1 GB     disk2s4
-   5:                APFS Volume Toshiba                 10.7 GB    disk2s5
+   5:                APFS Volume Toshiba                 10.8 GB    disk2s5
 
 /dev/disk3 (synthesized):
    #:                       TYPE NAME                    SIZE       IDENTIFIER
    0:      APFS Container Scheme -                      +239.9 GB   disk3
                                  Physical Store disk1s2
-   1:                APFS Volume Mojave-14.5             71.3 GB    disk3s1
-   2:                APFS Volume Preboot                 44.8 MB    disk3s2
-   3:                APFS Volume Recovery                510.4 MB   disk3s3
-   4:                APFS Volume VM                      20.5 KB    disk3s4
+   1:                APFS Volume Catalina - Data         117.2 GB   disk3s1
+   2:                APFS Volume Preboot                 81.9 MB    disk3s2
+   3:                APFS Volume Recovery                528.1 MB   disk3s3
+   4:                APFS Volume VM                      1.1 MB     disk3s4
+   5:                APFS Volume Catalina-15.0           11.2 GB    disk3s5
+
+/dev/disk4 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *15.5 GB    disk4
+   1:                        EFI EFI                     209.7 MB   disk4s1
+   2:                  Apple_HFS Install macOS Catali... 15.2 GB    disk4s2
 
 ======================================================
 Backing up EFI files
 
-Backing up stage2 file /Volumes/Mojave-14.5/EFIROOTDIR/boot  to /Volumes/Mojave-14.5/EFI-Backups/r5093/2019-10-10-21h28/boot
-Backing up /Volumes/Mojave-14.5/EFIROOTDIR/EFI folder to /Volumes/Mojave-14.5/EFI-Backups/r5093/2019-10-10-21h28/EFI
+Backing up stage2 file /Volumes/Toshiba/EFIROOTDIR/boot  to /Volumes/Toshiba/EFI-Backups/r5106/2020-03-27-19h09/boot
+Backing up /Volumes/Toshiba/EFIROOTDIR/EFI folder to /Volumes/Toshiba/EFI-Backups/r5106/2020-03-27-19h09/EFI
 ======================================================
 Installing BootSectors/BootLoader
 
-Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
-Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
-Stage 2 - Written boot6 (x64) to //boot
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /Volumes/Toshiba
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /Volumes/Toshiba
+Stage 2 - Written boot7 (x64) to /Volumes/Toshiba/boot
 
 ======================================================
 =========== Clover EFI Installation Finish ===========
