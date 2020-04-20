@@ -2,6 +2,8 @@
 NEED TO REGENERATE NEW SERIAL ON config.plist
 IF ONE EXIST IS INVALID
 !!!!!!!!!!!!
+
+
 After ANY os x update run kextutility.app for refrsh and repair permision for kexts.
 
 !!!!!!!    I have DW1560 ....for DW1820 need other config !!!!!!!
