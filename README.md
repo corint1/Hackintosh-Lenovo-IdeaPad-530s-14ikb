@@ -4,6 +4,7 @@ IF ONE EXIST IS INVALID
 !!!!!!!!!!!!
 After ANY os x update run kextutility.app for refrsh and repair permision for kexts.
 
+!!!!!!!    I have DW1560 ....foe DW1820 need other config !!!!!!!
 
 # IdeeaPad-530s-14ikb-mac-osx
 
