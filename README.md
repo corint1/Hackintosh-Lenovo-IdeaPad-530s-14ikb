@@ -15,9 +15,12 @@ Folderul EFI pentru mac os-x
 Mojave 10.14.6 
 
 Catalina 15.2 (11 dec 2019) , 15.4 ( 28 martie 2020 ).
+
 Catalina 15.4 ( 21 aprilie 2020 ) - CLOVER & OpenCore.
 
 Mai sunt mici corectii de facut si putin cosmetizat dar de principiu functioeaza tot.
+
+
 
 Descriere produs:
 
