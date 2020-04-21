@@ -25,6 +25,7 @@ Mai sunt mici corectii de facut si putin cosmetizat dar de principiu functioeaza
 Descriere produs:
 
 Specificatii
+
 I.PROCESOR
 1. Intel® i5 8250U Kaby Lake R
 2. Numar nuclee	4
