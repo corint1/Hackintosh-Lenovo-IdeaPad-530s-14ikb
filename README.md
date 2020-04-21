@@ -4,13 +4,19 @@ IF ONE EXIST IS INVALID
 !!!!!!!!!!!!
 
 
-After ANY os x update run kextutility.app for refrsh and repair permision for kexts.
+After ANY os x update run kextutility.app for refresh cache and repair permision for kexts.
 
-!!!!!!!    I have DW1560 ....for DW1820 need other config !!!!!!!
+!!!!!!!    I have DW1560 ....for DW1820a need other config !!!!!!!
 
-# IdeeaPad-530s-14ikb-mac-osx
+# IdeeaPad-530s-14ikb-mac-osx #
 
-Folderul EFI pentru mac os-x Mojave 10.14.6, dar functioneaza si in Catalina 15.2 (11 dec 2019) , 15.4 ( 28 martie 2020 ).
+Folderul EFI pentru mac os-x 
+
+Mojave 10.14.6 
+
+Catalina 15.2 (11 dec 2019) , 15.4 ( 28 martie 2020 ).
+Catalina 15.4 ( 21 aprilie 2020 ) - CLOVER & OpenCore.
+
 Mai sunt mici corectii de facut si putin cosmetizat dar de principiu functioeaza tot.
 
 Descriere produs:
