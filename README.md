@@ -18,6 +18,9 @@ Catalina 15.2 (11 dec 2019) , 15.4 ( 28 martie 2020 ).
 
 Catalina 15.4 ( 21 aprilie 2020 ) - CLOVER & OpenCore.
 
+Catalina 15.5 ( 28 mai 2020 ) - CLOVER & OpenCore.
+
+
 Mai sunt mici corectii de facut si putin cosmetizat dar de principiu functioeaza tot.
 
 
