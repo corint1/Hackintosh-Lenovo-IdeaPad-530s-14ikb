@@ -21,6 +21,8 @@ Catalina 15.4 ( 21 aprilie 2020 ) - CLOVER & OpenCore.
 Catalina 15.5 ( 28 mai 2020 ) - CLOVER & OpenCore.
 
 
+!!!!! DON'T update VoodooIC2 ... new version dont work !!!!!!!!!!
+
 Mai sunt mici corectii de facut si putin cosmetizat dar de principiu functioeaza tot.
 
 
