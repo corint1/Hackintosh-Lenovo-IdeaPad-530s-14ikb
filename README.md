@@ -20,6 +20,7 @@ Catalina 15.4 ( 21 aprilie 2020 ) - CLOVER & OpenCore.
 
 Catalina 15.5 ( 28 mai 2020 ) - CLOVER & OpenCore.
 
+Big Sur beta 3 ( 2 august 2020) - OpenCore 0.60 + noi kext-uri pt WIFI & BT si Trackpad ( care functioneaza cu limite )
 
 !!!!! DON'T update VoodooIC2 ... new version dont work !!!!!!!!!!
 
