@@ -46,6 +46,7 @@ II.AFISARE
 2. Format display	WQHD (2k)
 3. Rezolutie	2560 x 1440
 4. Tehnologie display	IPS
+
 5.Finisaj display	Glare
 
 III.MEMORIE     8 GB	DDR4 2400 MHz
