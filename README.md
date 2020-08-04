@@ -28,7 +28,7 @@ Big Sur beta 3 ( 2 august 2020) - OpenCore 0.60 + noi kext-uri pt WIFI & BT si T
     toate capabilitatile ( cel de la Acidanthera este o mizerie ) chiar daca nu este ultima versiune 
 
 
-!!!!! DON'T update VoodooIC2 ... new version dont work !!!!!!!!!!
+!!!!! DON'T update VoodooIC2 ... new version dont work (Catalina) !!!!!!!!!!
 
 Mai sunt mici corectii de facut si putin cosmetizat dar de principiu functioeaza tot.
 
