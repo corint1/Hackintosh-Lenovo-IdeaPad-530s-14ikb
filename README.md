@@ -24,7 +24,7 @@ Big Sur beta 3 ( 2 august 2020) - OpenCore 0.60 + noi kext-uri pt WIFI & BT si T
 
     Atentie !!!
     -- noul kext pentr WIFI trebuie folosit partial , doar plugin-ul NIC ---
-    -- VoodooImput trebuie folosit cel din VoodooI2C.kext in acest mod trackpad-ul are
+    -- VoodooInput trebuie folosit cel din VoodooI2C.kext in acest mod trackpad-ul are
     toate capabilitatile ( cel de la Acidanthera este o mizerie ) chiar daca nu este ultima versiune 
 
 
