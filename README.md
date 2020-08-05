@@ -20,9 +20,15 @@ Catalina 15.4 ( 21 aprilie 2020 ) - CLOVER & OpenCore.
 
 Catalina 15.5 ( 28 mai 2020 ) - CLOVER & OpenCore.
 
-Big Sur beta 3 ( 2 august 2020) - OpenCore 0.60 + noi kext-uri pt WIFI & BT si Trackpad ( care functioneaza cu limite )
+Big Sur beta 3 ( 2 august 2020) - OpenCore 0.60 + noi kext-uri pt WIFI & BT si Trackpad
 
-!!!!! DON'T update VoodooIC2 ... new version dont work !!!!!!!!!!
+    #       ATENTIE !!!    #
+    -- noul kext pentr WIFI trebuie folosit partial , doar plugin-ul NIC ---
+    -- VoodooInput trebuie folosit cel din VoodooI2C.kext in acest mod trackpad-ul are
+    toate capabilitatile ( cel de la Acidanthera este o mizerie ) chiar daca nu este ultima versiune 
+
+
+!!!!! DON'T update VoodooIC2 ... new version dont work (Catalina) !!!!!!!!!!
 
 Mai sunt mici corectii de facut si putin cosmetizat dar de principiu functioeaza tot.
 
@@ -46,7 +52,7 @@ II.AFISARE
 2. Format display	WQHD (2k)
 3. Rezolutie	2560 x 1440
 4. Tehnologie display	IPS
-5.Finisaj display	Glare
+5. Finisaj display	Glare
 
 III.MEMORIE     8 GB	DDR4 2400 MHz
 
