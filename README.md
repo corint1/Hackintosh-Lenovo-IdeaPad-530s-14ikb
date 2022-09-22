@@ -35,6 +35,8 @@ Big Sur beta 4 ( 5 august 2020) - OpenCore 0.60 + noi kext-uri pt stabilitate ( 
 Mai sunt mici corectii de facut si putin cosmetizat dar de principiu functioeaza tot.
 
 
+sudo pmset standby 0
+sudo pmset autopoweroff 0
 
 Descriere produs:
 
