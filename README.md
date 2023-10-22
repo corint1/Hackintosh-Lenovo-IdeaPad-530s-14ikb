@@ -107,3 +107,9 @@ Cred ca nu am omis nimic... Si cum se spune in astfel de situatii : "Working in 
 Sunt deschis la orice sugestie sau complectare, actualizare etc etc 
 
 Pe scurt este un laptop de exceptie care pt. hackintosh este perfect.
+
+MacOS Sonoma updaye ---
+Dupa instalrea EFDI este necesar patch-ul
+
+https://github.com/dortania/OpenCore-Legacy-Patcher/releases
+
