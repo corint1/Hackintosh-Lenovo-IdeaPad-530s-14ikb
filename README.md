@@ -10,6 +10,17 @@ After ANY os x update run kextutility.app for refresh cache and repair permision
 
 # IdeeaPad-530s-14ikb-mac-osx #
 
+IMPORTANT !!! FOR SONOMA
+
+MacOS Sonoma updaye ---
+am scimbat placa de retea cu BCM94360CS2 cu un adaptor luat de pe ebay
+voi incerca daca merge si cu DW1560 --- acum nu cred 
+Dupa instalrea EFDI este necesar patch-ul
+https://github.com/dortania/OpenCore-Legacy-Patcher/releases
+
+
+
+
 Folderul EFI pentru mac os-x 
 
 Mojave 10.14.6 
@@ -107,9 +118,4 @@ Cred ca nu am omis nimic... Si cum se spune in astfel de situatii : "Working in 
 Sunt deschis la orice sugestie sau complectare, actualizare etc etc 
 
 Pe scurt este un laptop de exceptie care pt. hackintosh este perfect.
-
-MacOS Sonoma updaye ---
-Dupa instalrea EFDI este necesar patch-ul
-
-https://github.com/dortania/OpenCore-Legacy-Patcher/releases
 
