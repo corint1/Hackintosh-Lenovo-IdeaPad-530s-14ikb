@@ -15,6 +15,7 @@ IMPORTANT !!! FOR SONOMA
 MacOS Sonoma updaye ---
 am scimbat placa de retea cu BCM94360CS2 cu un adaptor luat de pe ebay
 voi incerca daca merge si cu DW1560 --- acum nu cred 
+
 Dupa instalrea EFDI este necesar patch-ul
 https://github.com/dortania/OpenCore-Legacy-Patcher/releases
 
