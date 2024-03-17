@@ -31,6 +31,8 @@ Big Sur beta 3 ( 2 august 2020) - OpenCore 0.60 + noi kext-uri pt WIFI & BT si T
 Big Sur beta 4 ( 5 august 2020) - OpenCore 0.60 + noi kext-uri pt stabilitate ( nu se mai restarteaza dupa iesirea din sleep )
 
 Sonoma 14.4 ( 17 martie 2024 )
+
+
     #       ATENTIE !!!    #
     -- noul kext pentr WIFI trebuie folosit partial , doar plugin-ul NIC ---
     -- VoodooInput trebuie folosit cel din VoodooI2C.kext in acest mod trackpad-ul are
@@ -41,8 +43,6 @@ Sonoma 14.4 ( 17 martie 2024 )
 
 sudo pmset standby 0
 sudo pmset autopoweroff 0
-
-Descriere produs:
 
 Spec
 
