@@ -1,10 +1,3 @@
-!!!!!!!!!!!!
-NEED TO REGENERATE NEW SERIAL ON config.plist
-IF ONE EXIST IS INVALID
-!!!!!!!!!!!!
-
-
-After ANY os x update run kextutility.app for refresh cache and repair permision for kexts.
 
 !!!!!!!    I have DW1560 ....for DW1820a need other config !!!!!!!
 
@@ -16,7 +9,7 @@ MacOS Sonoma updaye ---
 am scimbat placa de retea cu BCM94360CS2 cu un adaptor luat de pe ebay
 voi incerca daca merge si cu DW1560 --- acum nu cred 
 
-Dupa instalrea EFI este necesar patch-ul asa zisul OCLP
+Dupa instalrea EFI este necesar patch-ul asa zisul OCLP Ver 14.2
 
 https://github.com/dortania/OpenCore-Legacy-Patcher/releases
 
@@ -37,6 +30,7 @@ Big Sur beta 3 ( 2 august 2020) - OpenCore 0.60 + noi kext-uri pt WIFI & BT si T
 
 Big Sur beta 4 ( 5 august 2020) - OpenCore 0.60 + noi kext-uri pt stabilitate ( nu se mai restarteaza dupa iesirea din sleep )
 
+Sonoma 14.4 ( 17 martie 2024 )
     #       ATENTIE !!!    #
     -- noul kext pentr WIFI trebuie folosit partial , doar plugin-ul NIC ---
     -- VoodooInput trebuie folosit cel din VoodooI2C.kext in acest mod trackpad-ul are
@@ -45,15 +39,12 @@ Big Sur beta 4 ( 5 august 2020) - OpenCore 0.60 + noi kext-uri pt stabilitate ( 
 
 !!!!! DON'T update VoodooIC2 ... new version dont work (Catalina) !!!!!!!!!!
 
-Mai sunt mici corectii de facut si putin cosmetizat dar de principiu functioeaza tot.
-
-
 sudo pmset standby 0
 sudo pmset autopoweroff 0
 
 Descriere produs:
 
-Specificatii
+Spec
 
 I.PROCESOR
 1. Intel® i5 8250U Kaby Lake R
@@ -118,6 +109,4 @@ Lenovo
 
 Cred ca nu am omis nimic... Si cum se spune in astfel de situatii : "Working in progress"
 Sunt deschis la orice sugestie sau complectare, actualizare etc etc 
-
-Pe scurt este un laptop de exceptie care pt. hackintosh este perfect.
 
