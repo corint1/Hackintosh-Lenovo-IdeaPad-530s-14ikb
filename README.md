@@ -3,6 +3,11 @@
 
 # IdeeaPad-530s-14ikb-mac-osx #
 
+
+IMPORTANT !!! FOR SEQUOIA 15.0
+
+ocpl 2.0.1
+
 IMPORTANT !!! FOR SONOMA
 
 MacOS Sonoma updaye ---
